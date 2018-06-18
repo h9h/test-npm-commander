@@ -1,0 +1,55 @@
+{
+  "name": "test-npm-commander",
+  "version": "1.0.0",
+  "description": "Example usage of npm commander",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h9h/test-npm-commander.git"
+  },
+  "keywords": [
+    "js",
+    "commander",
+    "scripting"
+  ],
+  "author": "h9h",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h9h/test-npm-commander/issues"
+  },
+  "homepage": "https://github.com/h9h/test-npm-commander#readme",
+  "dependencies": {
+    "commander": "^2.15.1"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": [
+      "eslint:recommended",
+      "google"
+    ],
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "callback-return": "error",
+      "global-require": "error",
+      "handle-callback-err": "error",
+      "no-var": "error",
+      "prefer-const": "warn",
+      "prefer-rest-params": "warn",
+      "semi": ["error", "never", { "beforeStatementContinuationChars": "always" }],
+      "linebreak-style": 0,
+      "max-len": ["warn", { "code": 120 }],
+      "no-console": "off"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
